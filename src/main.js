@@ -2,14 +2,19 @@ import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
 import App from "./App.vue";
 
+import Page2 from "./pages/Page2.vue";
 import Page1 from "./pages/Page1.vue";
 import Portfolio from "./pages/Portfolio.vue";
-import Page2 from "./pages/Page2.vue";
 import "./global.css";
 
 const routes = [
   {
     path: "/",
+    name: "Page2",
+    component: Page2,
+  },
+  {
+    path: "/page120012024",
     name: "Page1",
     component: Page1,
   },
@@ -17,11 +22,6 @@ const routes = [
     path: "/portfolio20012024",
     name: "Portfolio",
     component: Portfolio,
-  },
-  {
-    path: "/page220012024",
-    name: "Page2",
-    component: Page2,
   },
 ];
 

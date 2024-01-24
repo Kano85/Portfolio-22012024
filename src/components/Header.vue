@@ -16,12 +16,12 @@
         class="flex-1 overflow-hidden flex flex-col items-start justify-start gap-[269px] min-w-[608px] max-w-full mq925:gap-[134px] mq925:min-w-full mq700:gap-[67px]"
       >
         <h1
-          class="m-0 w-[97px] h-[53px] relative text-inherit font-medium font-inherit inline-block mq450:text-5xl mq925:text-13xl"
+          class="m-0 w-[97px] h-[53px] relative text-inherit font-medium font-inherit inline-block mq925:text-13xl mq450:text-5xl"
         >
           Hi !
         </h1>
         <b
-          class="self-stretch h-[238px] relative uppercase inline-block text-71xl mq450:text-8xl mq925:text-26xl"
+          class="self-stretch h-[238px] relative uppercase inline-block text-71xl mq925:text-26xl mq450:text-8xl"
         >
           <p class="m-0">Harold</p>
           <p class="m-0">

@@ -8,7 +8,7 @@
     >
       <div
         class="w-[82px] flex flex-row items-start justify-start gap-[12px] cursor-pointer"
-        @click="onFRAMEBClick"
+        @click="onWBSArrowInstanceClick"
       >
         <img
           class="h-6 w-6 relative object-contain min-h-[24px]"
@@ -42,11 +42,11 @@
   export default defineComponent({
     name: "NavigationBar",
     methods: {
-      onFRAMEBClick() {
+      onWBSArrowInstanceClick() {
         this.$router.push("/portfolio20012024");
       },
       onWBSArrowIcon1Click() {
-        this.$router.push("/page220012024");
+        this.$router.push("/");
       },
     },
   });

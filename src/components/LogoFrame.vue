@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[501px] flex flex-col items-start justify-start pt-5 px-0 pb-0 box-border min-w-[501px] max-w-full text-left text-base text-white font-roboto-mono mq725:min-w-full mq1000:flex-1"
+    class="w-[501px] flex flex-col items-start justify-start pt-5 px-0 pb-0 box-border min-w-[501px] max-w-full text-left text-base text-white font-roboto-mono mq1000:flex-1 mq725:min-w-full"
     :style="logoFrameStyle"
   >
     <div

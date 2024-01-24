@@ -8,7 +8,7 @@
       data-scroll-to="about"
     >
       <h1
-        class="m-0 self-stretch h-[53px] relative text-21xl uppercase font-medium font-inherit inline-block mq450:text-5xl mq925:text-13xl"
+        class="m-0 self-stretch h-[53px] relative text-21xl uppercase font-medium font-inherit inline-block mq925:text-13xl mq450:text-5xl"
       >
         UXUI Designer
       </h1>
@@ -50,7 +50,7 @@
       class="self-stretch bg-primary-main-1 overflow-hidden flex flex-col items-center justify-start p-5 box-border gap-[20px] min-h-[253px] max-w-full shrink-0 text-left text-21xl text-white font-roboto-mono"
     >
       <h1
-        class="m-0 self-stretch h-[53px] relative text-inherit uppercase font-medium font-inherit inline-block mq450:text-5xl mq925:text-13xl"
+        class="m-0 self-stretch h-[53px] relative text-inherit uppercase font-medium font-inherit inline-block mq925:text-13xl mq450:text-5xl"
       >
         Empowering Your Vison with Functionality
       </h1>

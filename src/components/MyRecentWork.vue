@@ -4,7 +4,7 @@
     data-scroll-to="myRecentWork"
   >
     <h1
-      class="m-0 h-[66px] relative text-inherit uppercase font-bold font-inherit inline-block max-w-full mq450:text-11xl mq925:text-21xl"
+      class="m-0 h-[66px] relative text-inherit uppercase font-bold font-inherit inline-block max-w-full mq925:text-21xl mq450:text-11xl"
     >
       My recent work
     </h1>
@@ -37,10 +37,10 @@
     components: { GroupOfHorizontalCards },
     methods: {
       onGalleryCardContainerClick() {
-        this.$router.push("/");
+        this.$router.push("/page120012024");
       },
       onGalleryCardContainer1Click() {
-        this.$router.push("/page220012024");
+        this.$router.push("/");
       },
     },
   });

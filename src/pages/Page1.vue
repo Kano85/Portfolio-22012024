@@ -4,7 +4,7 @@
   >
     <NavigationBar />
     <main
-      class="w-[1201px] flex flex-row items-start justify-start gap-[81px] max-w-full shrink-0 mq725:gap-[40px] mq450:gap-[20px] mq1000:flex-wrap"
+      class="w-[1201px] flex flex-row items-start justify-start gap-[81px] max-w-full shrink-0 mq1000:flex-wrap mq725:gap-[40px] mq450:gap-[20px]"
     >
       <div
         class="flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-0 box-border gap-[40px] min-w-[402px] max-w-full mq725:gap-[20px] mq725:min-w-full"

@@ -7,7 +7,7 @@
       class="w-[431px] flex-1 flex flex-col items-end justify-start gap-[20px] max-w-full"
     >
       <b
-        class="h-[76px] relative uppercase inline-block mq450:text-15xl mq925:text-27xl"
+        class="h-[76px] relative uppercase inline-block mq925:text-27xl mq450:text-15xl"
         >Contact</b
       >
       <div class="flex-1 relative text-base tracking-[0.01em] text-right">

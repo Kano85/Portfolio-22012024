@@ -176,10 +176,10 @@
         this.$router.push("/portfolio20012024");
       },
       onWBSArrowIcon1Click() {
-        this.$router.push("/");
+        this.$router.push("/page120012024");
       },
       onWBSArrowIcon2Click() {
-        this.$router.push("/");
+        this.$router.push("/page120012024");
       },
       onGroupClick() {
         const anchor = document.querySelector(
