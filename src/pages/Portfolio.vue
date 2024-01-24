@@ -85,7 +85,7 @@
     </footer>
   </div>
 </template>
-<script lang="ts">
+<script>
   import { defineComponent } from "vue";
   import Header from "../components/Header.vue";
   import MyRecentWork from "../components/MyRecentWork.vue";

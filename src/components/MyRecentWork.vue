@@ -28,7 +28,7 @@
     />
   </section>
 </template>
-<script lang="ts">
+<script>
   import { defineComponent } from "vue";
   import GroupOfHorizontalCards from "./GroupOfHorizontalCards.vue";
 

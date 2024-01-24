@@ -7,13 +7,7 @@ import Portfolio from "./pages/Portfolio.vue";
 import Page2 from "./pages/Page2.vue";
 import "./global.css";
 
-interface Route {
-  path: string;
-  name: string;
-  component: any;
-}
-
-const routes: Route[] = [
+const routes = [
   {
     path: "/",
     name: "Page1",

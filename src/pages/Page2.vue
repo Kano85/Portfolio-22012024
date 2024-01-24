@@ -164,7 +164,7 @@
     </div>
   </div>
 </template>
-<script lang="ts">
+<script>
   import { defineComponent } from "vue";
   import LogoFrame from "../components/LogoFrame.vue";
 

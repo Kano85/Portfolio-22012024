@@ -73,7 +73,7 @@
     </div>
   </div>
 </template>
-<script lang="ts">
+<script>
   import { defineComponent } from "vue";
   import NavigationBar from "../components/NavigationBar.vue";
   import LogoFrame from "../components/LogoFrame.vue";

@@ -153,9 +153,8 @@
     </div>
   </div>
 </template>
-<script lang="ts">
+<script>
   import { defineComponent } from "vue";
-  import type * as CSS from "csstype";
 
   export default defineComponent({
     name: "LogoFrame",
@@ -167,19 +166,19 @@
       propHeight: { type: [Object, Array, String, Number, Boolean] },
     },
     computed: {
-      logoFrameStyle(): CSS.Properties {
+      logoFrameStyle() {
         return {
           width: this.figmaLinkWidth,
           minWidth: this.figmaLinkMinWidth,
           flex: this.figmaLinkFlex,
         };
       },
-      trainspotIsAContainerStyle(): CSS.Properties {
+      trainspotIsAContainerStyle() {
         return {
           height: this.inTheTrainspotHeight,
         };
       },
-      uXUIDesignProcessInContainerStyle(): CSS.Properties {
+      uXUIDesignProcessInContainerStyle() {
         return {
           height: this.propHeight,
         };

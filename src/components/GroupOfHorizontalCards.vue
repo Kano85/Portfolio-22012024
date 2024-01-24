@@ -39,9 +39,8 @@
     </div>
   </div>
 </template>
-<script lang="ts">
+<script>
   import { defineComponent } from "vue";
-  import type * as CSS from "csstype";
 
   export default defineComponent({
     name: "GroupOfHorizontalCards",
@@ -54,12 +53,12 @@
       onGalleryCardContainer1Click: { type: Function },
     },
     computed: {
-      frameIconStyle(): CSS.Properties {
+      frameIconStyle() {
         return {
           height: this.propHeight,
         };
       },
-      frame5893IconStyle(): CSS.Properties {
+      frame5893IconStyle() {
         return {
           height: this.propHeight1,
         };
