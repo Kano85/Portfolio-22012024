@@ -4,6 +4,7 @@ import App from "./App.vue";
 
 import Page1 from "./pages/Page1.vue";
 import Portfolio from "./pages/Portfolio.vue";
+import Page2 from "./pages/Page2.vue";
 import "./global.css";
 
 interface Route {
@@ -22,6 +23,11 @@ const routes: Route[] = [
     path: "/portfolio20012024",
     name: "Portfolio",
     component: Portfolio,
+  },
+  {
+    path: "/page220012024",
+    name: "Page2",
+    component: Page2,
   },
 ];
 

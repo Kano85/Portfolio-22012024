@@ -1,44 +1,46 @@
 <template>
   <section
-    class="self-stretch bg-base-white overflow-hidden flex flex-col items-end justify-center py-2.5 px-10 box-border gap-[30px] max-w-full text-left text-31xl text-primary-main-1 font-roboto-mono mq700:gap-[15px]"
+    class="self-stretch bg-white overflow-hidden flex flex-col items-end justify-center py-5 px-10 box-border gap-[20px] max-w-full shrink-0 text-left text-31xl text-primary-main-1 font-roboto-mono"
+    data-scroll-to="myRecentWork"
   >
     <h1
-      class="m-0 h-[66px] relative text-inherit uppercase font-bold font-inherit inline-block max-w-full mq950:text-21xl mq450:text-11xl"
+      class="m-0 h-[66px] relative text-inherit uppercase font-bold font-inherit inline-block max-w-full mq450:text-11xl mq925:text-21xl"
     >
       My recent work
     </h1>
-    <div
-      class="self-stretch flex flex-row flex-wrap items-center justify-start gap-[40px] max-w-full text-base mq700:gap-[20px]"
-    >
-      <GalleryCard
-        frame5901="/frame-590-1@2x.png"
-        trainspot="Trainspot"
-        uIUX20232024="UIUX, 2023-2024"
-        propMinWidth="367px"
-        :onGalleryCardContainerClick="onGalleryCardContainerClick"
-      /><GalleryCard
-        frame5901="/frame-592-1@2x.png"
-        trainspot="Kurskonfigurator"
-        uIUX20232024="UI, Art drection"
-        propMinWidth="378px"
-        :onGalleryCardContainerClick="onGalleryCardContainer1Click"
-      />
-    </div>
+    <GroupOfHorizontalCards
+      frame589="/frame-589@2x.png"
+      frame5893="/frame-5893@2x.png"
+      propHeight="450px"
+      propHeight1="450px"
+      :onGalleryCardContainerClick="onGalleryCardContainerClick"
+      :onGalleryCardContainer1Click="onGalleryCardContainer1Click"
+    /><GroupOfHorizontalCards
+      frame589="/gallery-card@2x.png"
+      frame5893="/frame-590@2x.png"
+      propHeight="443.3px"
+      propHeight1="443.3px"
+    /><GroupOfHorizontalCards
+      frame589="/frame-5892@2x.png"
+      frame5893="/frame-5891@2x.png"
+      propHeight="443.3px"
+      propHeight1="443.3px"
+    />
   </section>
 </template>
 <script lang="ts">
   import { defineComponent } from "vue";
-  import GalleryCard from "./GalleryCard.vue";
+  import GroupOfHorizontalCards from "./GroupOfHorizontalCards.vue";
 
   export default defineComponent({
     name: "MyRecentWork",
-    components: { GalleryCard },
+    components: { GroupOfHorizontalCards },
     methods: {
       onGalleryCardContainerClick() {
         this.$router.push("/");
       },
       onGalleryCardContainer1Click() {
-        // Please sync "Page2-20012024" to the project
+        this.$router.push("/page220012024");
       },
     },
   });

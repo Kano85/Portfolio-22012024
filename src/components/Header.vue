@@ -1,6 +1,7 @@
 <template>
   <section
-    class="self-stretch bg-base-white flex flex-row items-center justify-center relative gap-[10px] max-w-full text-left text-21xl text-primary-main-1 font-roboto-mono"
+    class="self-stretch bg-white flex flex-row items-center justify-center relative gap-[10px] max-w-full shrink-0 text-left text-21xl text-primary-main-1 font-roboto-mono"
+    data-scroll-to="header"
   >
     <img
       class="h-full w-full absolute my-0 mx-[!important] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover"
@@ -12,15 +13,15 @@
       class="flex-1 flex flex-row flex-wrap items-start justify-start pt-[30px] px-10 pb-2.5 box-border [row-gap:20px] max-w-full z-[1]"
     >
       <div
-        class="flex-1 overflow-hidden flex flex-col items-start justify-start gap-[269px] min-w-[619px] max-w-full mq950:min-w-full mq700:gap-[67px] mq975:gap-[134px]"
+        class="flex-1 overflow-hidden flex flex-col items-start justify-start gap-[269px] min-w-[608px] max-w-full mq925:gap-[134px] mq925:min-w-full mq700:gap-[67px]"
       >
         <h1
-          class="m-0 w-[97px] h-[53px] relative text-inherit font-medium font-inherit inline-block mq950:text-13xl mq450:text-5xl"
+          class="m-0 w-[97px] h-[53px] relative text-inherit font-medium font-inherit inline-block mq450:text-5xl mq925:text-13xl"
         >
           Hi !
         </h1>
         <b
-          class="self-stretch h-[238px] relative uppercase inline-block text-71xl mq950:text-26xl mq450:text-8xl"
+          class="self-stretch h-[238px] relative uppercase inline-block text-71xl mq450:text-8xl mq925:text-26xl"
         >
           <p class="m-0">Harold</p>
           <p class="m-0">
@@ -30,19 +31,26 @@
         </b>
       </div>
       <div
-        class="w-[247px] flex flex-row flex-wrap items-start justify-start py-0 pr-[3px] pl-0 box-border gap-[29px] text-base"
+        class="w-[265px] flex flex-row flex-wrap items-start justify-between py-2.5 px-0 box-border gap-[20px] text-base"
       >
         <div
-          class="w-[59px] relative font-medium inline-block whitespace-nowrap"
+          class="flex-1 relative font-medium cursor-pointer"
+          :onClick="onProfileTextClick"
         >
-          Home
+          Profile
         </div>
         <div
-          class="w-[59px] relative font-medium inline-block whitespace-nowrap"
+          class="relative font-medium whitespace-nowrap cursor-pointer"
+          :onClick="onWorksTextClick"
         >
           Works
         </div>
-        <div class="w-[68px] relative font-medium inline-block">Contact</div>
+        <div
+          class="flex-1 relative font-medium cursor-pointer"
+          :onClick="onContactTextClick"
+        >
+          Contact
+        </div>
       </div>
     </div>
   </section>
@@ -52,5 +60,27 @@
 
   export default defineComponent({
     name: "Header",
+    methods: {
+      onProfileTextClick() {
+        const anchor = document.querySelector("[data-scroll-to='about']");
+        if (anchor) {
+          anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+        }
+      },
+      onWorksTextClick() {
+        const anchor = document.querySelector(
+          "[data-scroll-to='myRecentWork']"
+        );
+        if (anchor) {
+          anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+        }
+      },
+      onContactTextClick() {
+        const anchor = document.querySelector("[data-scroll-to='contact']");
+        if (anchor) {
+          anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+        }
+      },
+    },
   });
 </script>

@@ -1,12 +1,13 @@
 <template>
   <section
-    class="self-stretch h-[249.5px] bg-base-white overflow-hidden shrink-0 flex flex-col items-end justify-start py-2.5 px-10 box-border max-w-full text-left text-38xl-4 text-primary-main-1 font-roboto-mono"
+    class="self-stretch h-[269.5px] bg-white overflow-hidden shrink-0 flex flex-col items-end justify-start py-5 px-10 box-border max-w-full text-left text-38xl-4 text-primary-main-1 font-roboto-mono"
+    data-scroll-to="contact"
   >
     <div
       class="w-[431px] flex-1 flex flex-col items-end justify-start gap-[20px] max-w-full"
     >
       <b
-        class="h-[76px] relative uppercase inline-block mq950:text-27xl mq450:text-15xl"
+        class="h-[76px] relative uppercase inline-block mq450:text-15xl mq925:text-27xl"
         >Contact</b
       >
       <div class="flex-1 relative text-base tracking-[0.01em] text-right">
