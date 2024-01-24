@@ -1,19 +1,19 @@
 <template>
   <div
-    class="w-full relative overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-px box-border tracking-[normal]"
+    class="w-full relative overflow-hidden flex flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[0.06rem] box-border tracking-[normal]"
   >
     <header />
     <section
-      class="self-stretch bg-white overflow-hidden flex flex-col items-center justify-start p-5 gap-[20px] shrink-0 text-left text-base text-primary-main-1 font-roboto-mono"
+      class="self-stretch bg-white overflow-hidden flex flex-col items-center justify-start p-[1.25rem] gap-[1.25rem] shrink-0 text-left text-[1rem] text-primary-main-1 font-roboto-mono"
       data-scroll-to="about"
     >
       <h1
-        class="m-0 self-stretch h-[53px] relative text-21xl uppercase font-medium font-inherit inline-block mq925:text-13xl mq450:text-5xl"
+        class="m-0 self-stretch h-[3.31rem] relative text-[2.5rem] uppercase font-medium font-inherit inline-block mq925:text-[2rem] mq450:text-[1.5rem]"
       >
         UXUI Designer
       </h1>
       <div
-        class="self-stretch flex flex-row items-start justify-start py-0 px-5"
+        class="self-stretch flex flex-row items-start justify-start py-[0rem] px-[1.25rem]"
       >
         <div class="relative font-medium">
           <a
@@ -39,7 +39,7 @@
           <span class="text-salmon">CV PDF</span>
         </div>
       </div>
-      <div class="self-stretch h-[42px] relative inline-block">
+      <div class="self-stretch h-[2.63rem] relative inline-block">
         Experience the difference that a user-centric design mindset, a custom
         design system, and coding finesse in diverse frameworks can make in your
         projects.
@@ -47,17 +47,17 @@
     </section>
     <MyRecentWork /><Contact />
     <footer
-      class="self-stretch bg-primary-main-1 overflow-hidden flex flex-col items-center justify-start p-5 box-border gap-[20px] min-h-[253px] max-w-full shrink-0 text-left text-21xl text-white font-roboto-mono"
+      class="self-stretch bg-primary-main-1 overflow-hidden flex flex-col items-center justify-start p-[1.25rem] box-border gap-[1.25rem] min-h-[15.81rem] max-w-full shrink-0 text-left text-[2.5rem] text-white font-roboto-mono"
     >
       <h1
-        class="m-0 self-stretch h-[53px] relative text-inherit uppercase font-medium font-inherit inline-block mq925:text-13xl mq450:text-5xl"
+        class="m-0 self-stretch h-[3.31rem] relative text-inherit uppercase font-medium font-inherit inline-block mq925:text-[2rem] mq450:text-[1.5rem]"
       >
         Empowering Your Vison with Functionality
       </h1>
       <div
-        class="self-stretch flex flex-row items-start justify-between py-0 px-5 box-border gap-[20px] max-w-full text-base mq925:flex-wrap"
+        class="self-stretch flex flex-row items-start justify-between py-[0rem] px-[1.25rem] box-border gap-[1.25rem] max-w-full text-[1rem] mq925:flex-wrap"
       >
-        <div class="h-[42px] relative inline-block max-w-full">
+        <div class="h-[2.63rem] relative inline-block max-w-full">
           <p class="m-0">
             By the way, I built the Portfolio from scratch with Vue JS,
             Tailwind, Node JS.
@@ -75,7 +75,7 @@
           </p>
         </div>
         <img
-          class="h-[59.8px] w-[59.8px] relative cursor-pointer"
+          class="h-[3.74rem] w-[3.74rem] relative cursor-pointer"
           loading="eager"
           alt=""
           src="/group-854.svg"

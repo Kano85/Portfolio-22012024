@@ -1,52 +1,52 @@
 <template>
   <section
-    class="self-stretch h-[269.5px] bg-white overflow-hidden shrink-0 flex flex-col items-end justify-start py-5 px-10 box-border max-w-full text-left text-38xl-4 text-primary-main-1 font-roboto-mono"
+    class="self-stretch h-[16.84rem] bg-white overflow-hidden shrink-0 flex flex-col items-end justify-start py-[1.25rem] px-[2.5rem] box-border max-w-full text-left text-[3.59rem] text-primary-main-1 font-roboto-mono"
     data-scroll-to="contact"
   >
     <div
-      class="w-[431px] flex-1 flex flex-col items-end justify-start gap-[20px] max-w-full"
+      class="w-[26.94rem] flex-1 flex flex-col items-end justify-start gap-[1.25rem] max-w-full"
     >
       <b
-        class="h-[76px] relative uppercase inline-block mq925:text-27xl mq450:text-15xl"
+        class="h-[4.75rem] relative uppercase inline-block mq925:text-[2.88rem] mq450:text-[2.13rem]"
         >Contact</b
       >
-      <div class="flex-1 relative text-base tracking-[0.01em] text-right">
+      <div class="flex-1 relative text-[1rem] tracking-[0.01em] text-right">
         <p class="m-0">Gleimstrasse 3</p>
         <p class="m-0">13355 Berlin</p>
         <p class="m-0">hcanocardenas@gmail.com</p>
         <p class="m-0">+4917627744274</p>
       </div>
-      <div class="flex flex-row items-start justify-start gap-[19.68px]">
+      <div class="flex flex-row items-start justify-start gap-[1.23rem]">
         <img
-          class="h-[29.5px] w-[29.5px] relative overflow-hidden shrink-0 min-h-[30px] cursor-pointer"
+          class="h-[1.84rem] w-[1.84rem] relative overflow-hidden shrink-0 min-h-[1.88rem] cursor-pointer"
           loading="eager"
           alt=""
           src="/discord.svg"
           :onClick="onDiscordIconClick"
         />
         <img
-          class="h-[29.5px] w-[29.5px] relative overflow-hidden shrink-0 min-h-[30px] cursor-pointer"
+          class="h-[1.84rem] w-[1.84rem] relative overflow-hidden shrink-0 min-h-[1.88rem] cursor-pointer"
           loading="eager"
           alt=""
           src="/facebook.svg"
           :onClick="onFacebookIconClick"
         />
         <img
-          class="h-[29.5px] w-[29.5px] relative overflow-hidden shrink-0 min-h-[30px] cursor-pointer"
+          class="h-[1.84rem] w-[1.84rem] relative overflow-hidden shrink-0 min-h-[1.88rem] cursor-pointer"
           loading="eager"
           alt=""
           src="/dribbble.svg"
           :onClick="onDribbbleIconClick"
         />
         <img
-          class="h-[29.5px] w-[29.5px] relative overflow-hidden shrink-0 min-h-[30px] cursor-pointer"
+          class="h-[1.84rem] w-[1.84rem] relative overflow-hidden shrink-0 min-h-[1.88rem] cursor-pointer"
           loading="eager"
           alt=""
           src="/nstagram.svg"
           :onClick="onNstagramIconClick"
         />
         <img
-          class="h-[29.5px] w-[29.5px] relative overflow-hidden shrink-0 min-h-[30px] cursor-pointer"
+          class="h-[1.84rem] w-[1.84rem] relative overflow-hidden shrink-0 min-h-[1.88rem] cursor-pointer"
           loading="eager"
           alt=""
           src="/behance.svg"

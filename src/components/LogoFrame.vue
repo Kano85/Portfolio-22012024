@@ -1,37 +1,37 @@
 <template>
   <div
-    class="w-[501px] flex flex-col items-start justify-start pt-5 px-0 pb-0 box-border min-w-[501px] max-w-full text-left text-base text-white font-roboto-mono mq1000:flex-1 mq725:min-w-full"
+    class="w-[31.31rem] flex flex-col items-start justify-start pt-[1.25rem] px-[0rem] pb-[0rem] box-border min-w-[31.31rem] max-w-full text-left text-[1rem] text-white font-roboto-mono mq1000:flex-1 mq725:min-w-full"
     :style="logoFrameStyle"
   >
     <div
-      class="self-stretch flex flex-col items-start justify-start gap-[10px] max-w-full"
+      class="self-stretch flex flex-col items-start justify-start gap-[0.63rem] max-w-full"
     >
       <div
-        class="self-stretch flex flex-row items-start justify-between gap-[20px] text-right mq450:flex-wrap"
+        class="self-stretch flex flex-row items-start justify-between gap-[1.25rem] text-right mq450:flex-wrap"
       >
         <div
-          class="h-[196.6px] w-[155px] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[41px]"
+          class="h-[12.29rem] w-[9.69rem] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[2.56rem]"
         >
           <img
-            class="self-stretch h-[24.9px] relative max-w-full overflow-hidden shrink-0"
+            class="self-stretch h-[1.56rem] relative max-w-full overflow-hidden shrink-0"
             loading="eager"
             alt=""
             src="/logowhite-1.svg"
           />
           <img
-            class="w-[93.2px] flex-1 relative max-h-full"
+            class="w-[5.83rem] flex-1 relative max-h-full"
             loading="eager"
             alt=""
             src="/group-852.svg"
           />
           <img
-            class="w-[115.2px] h-[25.5px] relative"
+            class="w-[7.2rem] h-[1.59rem] relative"
             loading="eager"
             alt=""
             src="/group-851.svg"
           />
         </div>
-        <div class="h-[63px] relative inline-block">
+        <div class="h-[3.94rem] relative inline-block">
           <p class="m-0">
             <b class="font-roboto-mono">User story example:</b>
           </p>
@@ -52,7 +52,7 @@
         </div>
       </div>
       <div
-        class="self-stretch relative text-sm"
+        class="self-stretch relative text-[0.88rem]"
         :style="trainspotIsAContainerStyle"
       >
         <p class="m-0">
@@ -80,13 +80,13 @@
         </p>
       </div>
       <a
-        class="w-[422px] relative [text-decoration:underline] text-[inherit] inline-block max-w-full"
+        class="w-[26.38rem] relative [text-decoration:underline] text-[inherit] inline-block max-w-full"
         href="https://www.meinbildungsraum.de/en/"
         target="_blank"
         >https://www.meinbildungsraum.de/en/</a
       >
       <div
-        class="self-stretch h-[666px] relative text-sm inline-block"
+        class="self-stretch h-[41.63rem] relative text-[0.88rem] inline-block"
         :style="uXUIDesignProcessInContainerStyle"
       >
         <p class="m-0">
@@ -122,22 +122,22 @@
           >
           <b class="font-roboto-mono">Agile & Scrum Involvement im project: </b>
         </p>
-        <ul class="m-0 text-inherit pl-[19px]">
-          <li class="mb-0">
+        <ul class="m-0 text-inherit pl-[1.36rem]">
+          <li class="mb-[false]">
             <span
               >Engaged in Scrum rituals: Sprint Planning, Daily Stand-ups,
               Sprint Reviews, and Retrospectives to adapt and improve our
               product iteratively.</span
             >
           </li>
-          <li class="mb-0">
+          <li class="mb-[false]">
             <span
               >Worked collaboratively with cross-functional teams to refine the
               backlog, ensuring all tasks are well-understood and aligned with
               sprint goals.</span
             >
           </li>
-          <li class="mb-0">
+          <li class="mb-[false]">
             <span
               >Contributed to a unique design system, crafting a dedicated
               component library to ensure consistency and accelerate the design

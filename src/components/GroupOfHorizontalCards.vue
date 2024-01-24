@@ -1,37 +1,37 @@
 <template>
   <div
-    class="self-stretch flex flex-row flex-wrap items-center justify-start gap-[40px] max-w-full text-left text-base text-primary-main-1 font-roboto-mono mq700:gap-[20px]"
+    class="self-stretch flex flex-row flex-wrap items-center justify-start gap-[2.5rem] max-w-full text-left text-[1rem] text-primary-main-1 font-roboto-mono mq700:gap-[1.25rem]"
   >
     <div
-      class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[367px] max-w-full cursor-pointer"
+      class="flex-1 flex flex-col items-start justify-start gap-[0.63rem] min-w-[22.94rem] max-w-full cursor-pointer"
       @click="onGalleryCardContainerClick"
     >
       <img
-        class="self-stretch h-[450px] relative max-w-full overflow-hidden shrink-0 object-cover"
+        class="self-stretch h-[28.13rem] relative max-w-full overflow-hidden shrink-0 object-cover"
         loading="eager"
         alt=""
         :src="frame589"
         :style="frameIconStyle"
       />
       <div
-        class="self-stretch flex flex-row flex-wrap items-center justify-between gap-[20px]"
+        class="self-stretch flex flex-row flex-wrap items-center justify-between gap-[1.25rem]"
       >
         <b class="relative">Trainspot</b>
         <div class="relative">UIUX, 2023-2024</div>
       </div>
     </div>
     <div
-      class="flex-1 flex flex-col items-start justify-start gap-[10px] min-w-[378px] max-w-full cursor-pointer"
+      class="flex-1 flex flex-col items-start justify-start gap-[0.63rem] min-w-[23.63rem] max-w-full cursor-pointer"
       @click="onGalleryCardContainer1Click"
     >
       <img
-        class="self-stretch h-[450px] relative max-w-full overflow-hidden shrink-0 object-cover"
+        class="self-stretch h-[28.13rem] relative max-w-full overflow-hidden shrink-0 object-cover"
         alt=""
         :src="frame5893"
         :style="frame5893IconStyle"
       />
       <div
-        class="self-stretch flex flex-row flex-wrap items-center justify-between gap-[20px]"
+        class="self-stretch flex flex-row flex-wrap items-center justify-between gap-[1.25rem]"
       >
         <b class="relative">Kurskonfigurator</b>
         <div class="relative">UI, Art drection</div>
